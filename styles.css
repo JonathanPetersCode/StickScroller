@@ -1,0 +1,109 @@
+html{
+    font-family: 'Noticia Text',
+    serif;
+    font-family: 'Tinos',
+    serif;
+    background: rgb(222, 222, 201);
+}
+.intro-text{
+    font-size: 2rem;
+    text-align: center;
+}
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b92b27;
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    background: linear-gradient(to right, #1565C0, #b92b27);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.img-scale{
+    width: 50%;
+    height: 40%;
+}
+
+.project{
+    height: 300vh;
+    display: flex;
+}
+.project-title{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: 0!important;
+}
+.project-pages{
+    width: 50%;
+}
+.project-pages div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.project-pages div> p {
+    width: 80%;
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+
+.project-pages div:nth-child(1){
+    background: #544a7d;
+    background: -webkit-linear-gradient(to right, #ffd452, #544a7d);
+    background: linear-gradient(to right, #ffd452, #544a7d);
+}
+.project-pages div:nth-child(2){
+    background: #355C7D;
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+}
+.project-pages div:nth-child(3){
+    background: #00F260;
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);
+    background: linear-gradient(to right, #0575E6, #00F260);
+}
+
+footer{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #03001e;
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 80vh;
+        padding: 0 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #b92b27;
+        background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+        background: linear-gradient(to right, #1565C0, #b92b27);
+        background-size: cover;
+        color: whitesmoke;
+    }
+.project-pages div>p {
+    width: 80%;
+    font-size: .8rem;
+    line-height: 35px;
+    }
+
+    .img-scale {
+        width: 80%;
+        height: 40%;
+    }
+}
